@@ -1,1 +1,202 @@
-WwogIHsKICAgICJuYW1lIjogIkJhZEJMRSDigJQgRHVja3lTY3JpcHQiLAogICAgImtpbmQiOiAiZHVja3kiLAogICAgImV4dGVuc2lvbiI6ICIudHh0IiwKICAgICJjYXRlZ29yeSI6ICJISUQgLyBEdWNreVNjcmlwdCIsCiAgICAiZGVzY3JpcHRpb24iOiAiQmx1ZXRvb3RoIEhJRCBwYXlsb2FkIHVzaW5nIEJydWNlJ3MgRHVja3lTY3JpcHQgcGFyc2VyLiIsCiAgICAiY29tbWFuZHMiOiBbIlJFTSIsIlNUUklORyIsIlNUUklOR0xOIiwiREVMQVkiLCJERUZBVUxUREVMQVkiLCJERUZBVUxUX0RFTEFZIiwiU1RSSU5HX0RFTEFZIiwiU1RSSU5HREVMQVkiLCJERUZBVUxUX1NUUklOR19ERUxBWSIsIkRFRkFVTFRTVFJJTkdERUxBWSIsIlJFUEVBVCIsIldBSVRfRk9SX0JVVFRPTl9QUkVTUyIsIkFMVENIQVIiLCJBTFRTVFJJTkciLCJBTFRDT0RFIiwiRU5URVIiLCJHVSIsIkFMVCIsIkNUTFIiLCJTSUhGVCJdLAogICAgInJ1bGVzIjogWyJPdXRwdXQgRHVja3lTY3JpcHQgb25seS4iLCJOZXZlciBvdXRwdXQgTHVhLCBQeXRob24sIEphdmFTY3JpcHQsIEhUTUwsIG9yIG1hcmtkb3duLiIsIlVzZSBvbmx5IHRoZSBsaXN0ZWQgY29tbWFuZHMuIiwiS2VlcCBleGFtcGxlcyBsaW1pdGVkIHRvIGF1dGhvcml6ZWQgdGVzdCBkZXZpY2VzLiJdLAogICAgImFwaSI6ICJCcnVjZSBCYWRCTEUgcnVucyBEdWNreSBzY3JpcHRzLiBUaGUgcGFyc2VyIGxpdmVzIGluIHRoZSBiYWR1c2JfYmxlIGZpcm13YXJlIG1vZHVsZS4iLAogICAgImV4YW1wbGVzIjogWyJSRU0gU2FmZSB0eXBpbmcgdGVzdFxuREVMQVkgMTAwMFxuU1RSSU5HIEhlbGxvIGZyb20gQnJ1Y2VcblNUUklOR0xO1Rlc3QgY29tcGxldGUiXQogIH0sCiAgewogICAgIm5hbWUiOiAiQmFkVVNCIOKAlCBEdWNreVNjcmlwdCIsCiAgICAia2luZCI6ICJkdWNreSIsCiAgICAiZXh0ZW5zaW9uIjogIi50eHQiLAogICAgImNhdGVnb3J5IjogIkhJRCAvIER1Y2t5U2NyaXB0IiwKICAgICJkZXNjcmlwdGlvbiI6ICJVU0IgSElEIHBheWxvYWQgZm9yIEJydWNlIGRldmljZXMgdGhhdCBleHBvc2UgQmFkVVNCLiIsCiAgICAiY29tbWFuZHMiOiBbIlJFTSIsIlNUUklORyIsIlNUUklOR0xOIiwiREVMQVkiLCJERUZBVUxUREVMQVkiLCJERUZBVUxUX0RFTEFZIiwiU1RSSU5HX0RFTEFZIiwiU1RSSU5HREVMQVkiLCJERUZBVUxUX1NUUklOR19ERUxBWSIsIkRFRkFVTFRTVFJJTkdERUxBWSIsIlJFUEVBVCIsIldBSVRfRk9SX0JVVFRPTl9QUkVTUyIsIkFMVENIQVIiLCJBTFRTVFJJTkciLCJBTFRDT0RFIiwiRU5URVIiLCJHVSIsIkFMVCIsIkNUTFIiLCJTSUhGVCJdLAogICAgInJ1bGVzIjogWyJPdXRwdXQgRHVja3lTY3JpcHQgb25seS4iLCJEbyBub3QgdXNlIER1Y2t5U2NyaXB0IDMgdmFyaWFibGVzIG9yIGNvbmRpdGlvbmFscy4iLCJOZXZlciBvdXRwdXQgSmF2YVNjcmlwdCBvciBMdWEuIiwiS2VlcCBhdXRvbWF0aW9uIHRvIGF1dGhvcml6ZWQgdGVzdCBtYWNoaW5lcy4iXSwKICAgICJhcGkiOiAiQnJ1Y2UgQmFkVVNCIHVzZXMgaXRzIER1Y2t5U2NyaXB0IHBhcnNlci4iLAogICAgImV4YW1wbGVzIjogWyJSRU0gU2FmZSBrZXlib2FyZCB0ZXN0XG5ERUxBWSAxMDAwXG5TVFJJTkcgQnJ1Y2UgVVNCIHRlc3RcblNUUklOR0xO1Rlc3QiXQogIH0KXQ==
+[
+  {
+    "name": "BadBLE — DuckyScript",
+    "category": "HID / DuckyScript",
+    "kind": "ducky",
+    "extension": ".txt",
+    "description": "Bluetooth HID payloads for Bruce BadBLE.",
+    "commands": [
+      "REM",
+      "STRING",
+      "STRINGLN",
+      "DELAY",
+      "DEFAULTDELAY",
+      "DEFAULT_DELAY",
+      "STRING_DELAY",
+      "STRINGDELAY",
+      "DEFAULT_STRING_DELAY",
+      "DEFAULTSTRINGDELAY",
+      "REPEAT",
+      "WAIT_FOR_BUTTON_PRESS",
+      "ALTCHAR",
+      "ALTSTRING",
+      "ALTCODE"
+    ],
+    "rules": [
+      "DuckyScript only.",
+      "Never Lua or JavaScript.",
+      "Use only documented commands.",
+      "Use only authorized test devices."
+    ],
+    "api": "Bruce BadBLE runs DuckyScript through the firmware parser."
+  },
+  {
+    "name": "BadUSB — DuckyScript",
+    "category": "HID / DuckyScript",
+    "kind": "ducky",
+    "extension": ".txt",
+    "description": "USB HID payloads for Bruce BadUSB.",
+    "commands": [
+      "REM",
+      "STRING",
+      "STRINGLN",
+      "DELAY",
+      "DEFAULTDELAY",
+      "DEFAULT_DELAY",
+      "STRING_DELAY",
+      "STRINGDELAY",
+      "DEFAULT_STRING_DELAY",
+      "DEFAULTSTRINGDELAY",
+      "REPEAT",
+      "WAIT_FOR_BUTTON_PRESS",
+      "ALTCHAR",
+      "ALTSTRING",
+      "ALTCODE"
+    ],
+    "rules": [
+      "DuckyScript only.",
+      "No DuckyScript 3 variables or conditionals.",
+      "Use only authorized test machines."
+    ],
+    "api": "Bruce BadUSB uses its DuckyScript parser."
+  },
+  {
+    "name": "Bruce JavaScript — Core",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "General Bruce JavaScript interpreter scripts.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented modules.",
+      "Never invent APIs."
+    ],
+    "api": "Bruce provides a JavaScript interpreter and documented modules."
+  },
+  {
+    "name": "Bruce JavaScript — Display",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Display module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Display APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Display as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Dialog",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Dialog module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Dialog APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Dialog as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Keyboard",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Keyboard module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Keyboard APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Keyboard as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Notification",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Notification module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Notification APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Notification as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Storage",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Storage module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Storage APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Storage as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Audio",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Audio module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Audio APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Audio as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — GPIO",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the GPIO module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented GPIO APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists GPIO as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — I2C",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the I2C module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented I2C APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists I2C as a module. Exact methods must match the installed firmware documentation."
+  },
+  {
+    "name": "Bruce JavaScript — Serial",
+    "category": "Bruce JavaScript",
+    "kind": "javascript",
+    "extension": ".js",
+    "description": "Bruce JavaScript scripts focused on the Serial module.",
+    "rules": [
+      "JavaScript only.",
+      "Use documented Serial APIs only.",
+      "Never invent method names.",
+      "Use only authorized hardware and systems."
+    ],
+    "api": "Bruce's interpreter documentation lists Serial as a module. Exact methods must match the installed firmware documentation."
+  }
+]
