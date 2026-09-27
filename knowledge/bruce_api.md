@@ -1,5 +1,7 @@
-# Bruce API knowledge
+# Bruce firmware knowledge
 
-This file will contain verified Bruce firmware scripting/API references.
+BadBLE and BadUSB use Bruce's DuckyScript parser, not Lua or JavaScript. Bruce also has a JavaScript interpreter for .js files.
 
-Do not add guessed functions. Each API entry should be verified against the Bruce version used by the T-Embed CC1101 Plus.
+The documented JavaScript modules include Dialog, Display, Keyboard, Notification, Storage, Audio, GPIO, I2C, Infrared, Microphone, RFID, Serial, Sub-GHz, and WiFi.
+
+The generator must never mix formats or invent API methods. Use only on authorized test systems.
